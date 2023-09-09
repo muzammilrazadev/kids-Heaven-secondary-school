@@ -1,0 +1,1256 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.this{
+display: flex;
+list-style: none;
+padding-left: 20px;
+margin: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+        /* border: 2px solid red; */
+     /* box-shadow: 10px 8px 10px 5px rgb(195, 202, 195); */
+     width: 1343px;
+    background-color: white;
+    position: fixed;
+    padding-top: 2px;
+    margin-top: -8px;
+    
+}
+.this li{
+    padding: 15px;
+    padding-left: 20px;
+    margin-left: 5px;
+    color: rgb(55, 55, 63);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.this li:hover{
+    color: rgb(94, 240, 94);
+    cursor: pointer;
+
+}
+.whatsapp{
+    border-bottom: 20px solid blue;
+    border-radius: 10px;
+}
+.addmision{
+    display: flex;
+ border: 20px solid  white;
+ /* height: 2em; */
+}
+.secondary{
+    padding: 50px;
+    padding-left: 47px;
+    margin-left: -15px;
+    /* background-color: rgb(68, 168, 118); */
+    background-color: #028371
+    /* box-shadow: -2px 2px 2px 5px rgb(68, 168, 118); */
+    /* height: 120vh; */
+}
+.secondary h2{
+    color: white;
+    font-size: 35px;
+    margin-top: -6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.secondary h4{
+    color: rgb(223, 223, 22);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -5px;
+}
+.secondary p{
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    padding: 15px 22px
+}
+.btn{
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    width: 115px;
+    height: 55px;
+    /* box-shadow:2px 2px 8px rgb(213, 235, 16); */
+    border: yellow;
+    margin-top: -15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.about{
+background-color: #028371; 
+}
+.about h2{
+    color: yellow;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    padding-left: 1em;
+   margin-top: 20px;
+    margin: bottom 0;
+}
+.about p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-left: 20vw */
+    margin-left: 30vw;
+    font-size: 1.5em;
+    margin-left: -40px;
+    padding-left: 360px;
+    /* margin-top: -52px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 945px;
+    line-height: 1.7;
+    margin-top: -60px;
+ 
+}
+.heading{
+    margin-top: -20px;
+    padding-top: 115px;
+}
+#secondp{
+ padding-top: 23px;
+}
+.classes{
+    background-color: #028371;
+    padding-top: 5em;
+    /* display: flex; */
+    display:flex;
+    
+    
+}
+.about{
+    border-bottom: 2px solid #028371;
+    padding-top: 45px;
+}
+.early{
+    padding-left: 55px;
+    padding:43px
+}
+.early h3{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+.early img{
+    width: 4vw;
+    padding-left: 1em;
+}
+.early p{
+    font-size: 18px;
+    /* width: 15em; */
+    color: whitesmoke;
+    line-height: 1.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#one p{
+    width: 200px;
+}
+#two p{
+    width: 213px;
+}
+.five img{
+    border: 40px solid #e6e6e6;
+    border-left: 20px solid#e6e6e6;
+
+}
+.fiveone{
+    background-color: #028371;
+    /* padding-top: 80px; */
+    height: 610px;
+    display: flex;
+    
+}
+.toggle{
+    margin: auto;
+    width: 100%; 
+    align-items: center;
+    margin-left: 10vh;
+
+}
+.toggle ul li{
+    list-style: none;
+    font-size: 1.7vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 10vh;
+    border-color: blue;
+    border-bottom: 1px solid blue;
+    border-bottom-style: solid;
+    margin-top: 27px;
+
+
+}
+.toggle ul li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.toggle span{
+    font-size: 2.5vw;
+    width: 500px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+.toggle img{
+    height: 4vh;
+}
+
+
+
+.five img{
+    border-bottom: 70px solid#e6e6e6;
+}
+.feature{
+    border-top: 70px solid#e6e6e6;
+    display: flex;
+    text-align: start;
+    border: 5px solid #e6e6e6;
+text-transform: none;
+    align-content: center;
+
+}
+.Benifiets{
+    color: #028371;
+    /* border: 20px solid whitesmoke;/ */
+    background-color: whitesmoke; 
+    padding: 20px;
+    height: 18px;
+    display: flex;
+    align-items: top;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Alimuni{
+    color:#028371; ;
+    /* border: 20px solid whitesmoke; */
+    background-color: whitesmoke;
+    padding: 20px;
+    height: 18px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.why h2{
+    margin: 54px 0px;
+    color: rgb(78, 78, 128);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.choice {
+    background-position: top right;
+     padding-top: 190px;
+     /* padding-right: 500px; */
+     /* width: 500px; */
+    
+   
+}
+.choice p{
+line-height: 1.7;
+margin: -227px 8px;
+width: 650px;
+font-size: 20px;
+color: rgb(56, 56, 78);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.csr{
+    display: flex;
+    background-color: #028371;
+   
+    
+}
+#emailpng{
+    margin: auto;
+    /* display: block; */
+    width: 100%;
+    text-align: center;
+}
+#emailpng h3{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#emailpng p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    color: #ffffff;
+}
+#emailpng input{
+    width: 290px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(32, 32, 73);
+    height: 55px;
+    color: #94a8d1;
+    border: 1px solid  rgb(32, 32, 73);
+    margin-top: 30px;
+
+}
+#emailpng button{
+    width: 300px;
+    height:55px;
+    font-size: 20px;
+    background-color:#54b554;
+    border: 1px solid #54b554;
+ }
+
+
+
+
+
+.compeuter{
+    background: url(https://www.khss.com.pk/wp-content/uploads/2018/08/search-bg.jpg) no-repeat center center/cover
+
+    /* height: 100%; */
+}
+  
+
+.compeutertow{
+   
+    background: url(https://www.khss.com.pk/wp-content/uploads/2018/08/search-bg.jpg) no-repeat center center/cover
+
+    /* height: 100%; */
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    /* align-content: end; */
+    margin: auto;
+    width: 20px;
+}
+.all input{
+    margin: auto;
+    margin: 20px;
+    width: 540px;
+    height: 45px;
+    border: 1px white;
+    font-size: 18px;
+    font-family: 'Fra56vhnklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.all select{
+    margin: 20px;
+    width: 540px;
+    height: 45px;
+    border: 1px white;
+    border: 1px white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+#des{
+    height: 100px;
+    text-align: start;
+}
+.all h3{
+    margin-left: 30px;
+    color: white;
+    /* font-size: 20px; */
+
+}
+.sub{
+    /* margin:auto; */
+    /* margin-left: 715px; */
+    margin-top: 90px;
+}
+.watch{
+    width: 250px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
+#submit{
+   color: white;
+   background-color: #54b554;
+   width:140px;
+   margin-top: 20px;
+   font-weight: 800;
+   margin-bottom: 100px;
+
+}
+
+
+.idia img{
+    border-bottom: 2px solid green;
+    padding-bottom: 20px;
+
+}
+
+.North li{
+    margin-top: 20px;
+    color: #b39f9f;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.list:hover{
+    color: white;
+    cursor: pointer;
+}
+.ayan{
+    background-color: rgb(27, 22, 22);
+    border-top:13px solid rgb(27, 22, 22);
+}
+.ayan img{
+    color: white;
+}
+.ayan p{
+    color:rgb(186 , 168 , 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 35px;
+}
+.idia{
+    background-color: black;
+    padding-left: 30px;
+    display: flex;
+}
+.idia h3{
+    color: white;
+    margin-left: 40px;
+    width: 150px;
+    border-bottom: 2px solid green;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 240px;
+}
+#Socialmedia ul{
+    padding-bottom: 10px;
+}
+.ayan{
+    display: flex;
+}
+.ayan img{
+    margin-left: 20px;
+    height: 40px;
+    margin-top: 20px;
+    color: green;
+}
+.ayan img:hover{
+    color: white;
+
+}
+
+.end{
+    margin: auto;
+    display: flex;
+    margin-top: 23px;        display: flex;
+    flex-direction:row;
+}
+.main{
+    overflow: hidden;
+}
+.faida{
+    display: flex;
+    flex-direction: row
+}
+.music{
+    border: 20px solid white;
+}
+.school{
+    border: 10px solid white;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:white;
+    position: fixed;
+    margin-top: -20px;
+    
+   
+}
+nav img{
+    line-height: 10px;
+    margin-top: 13px;
+}
+nav ul{
+    /* display: flex; */
+    float: right;
+    list-style: none;
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #163269;
+    font-size : 18.5px;
+    padding: 8px 7px;
+    margin: -6px -4px; 
+ 
+}
+nav ul li a:hover{
+    color: #028371;
+    
+}
+nav ul li{
+   /* margin-left: 15px; */
+   /* padding: 0 0.10px; */
+   display: inline-block;
+   line-height: 10px;
+}
+#checkbtn{
+    /* display: none; */
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: rgb(87, 59, 59);
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    left:50%;
+
+}
+
+@media (max-width:420px) {
+    #checkbtn{
+        display: block;
+        font-size: 3vh;
+        padding: 0px 20px;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 68px;
+        left: 100%;
+        background-color: black;
+        transition: .5s;
+        margin-top: 0px;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin: 2ex 0px;
+        padding-right: 67%;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 3vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul li a:hover{
+        color: #028371;
+    }
+
+    #checkbtn{
+        display: block;
+        font-size: 3vh;
+        padding: 0px 20px;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 68px;
+        left: 100%;
+        background-color: black;
+        transition: .5s;
+        margin-top: 0px;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        padding-right: 65%;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 2vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul li a:hover{
+        color: #028371;
+    }
+
+    nav img{
+        width: 80vw;
+        height: 7vh;
+    }
+ 
+
+    .whatsapp img{
+        width: 95vw;
+        margin-top: 70px;
+    }
+    .addmision img {
+        width: 95vw;
+        height: 55vh;
+    }
+    .addmision{
+        /* display: flex; */
+        display: block;
+        border: #028371;
+
+    }
+    .secondary{
+        padding-top:-1 ;
+        width: 320px;
+        padding: 5vh 15vw;
+        /* border-bottom: #028371; */
+    }
+    .secondary h2{
+        margin-top: 10vw;
+        width: 65vw;
+        font-size: 7vw;
+        font-weight: 800;
+        padding-left: 0vh;
+
+    }       
+   
+    .secondary p {
+        padding: 6vw;
+        padding-left: 1vh;
+        color: white;
+        width: 50vw;
+        font-size: 5vw;
+        line-height: 2.1;
+    }
+    .btn{
+        margin-left: 3vh;
+    }
+   .about p{
+    color: #028371;
+    /* padding: 29vw 13vh;
+    width: 80vw;
+    color: white;
+    line-height: 7.5vh; */
+    padding-left: 20px;
+        width: 60vw;
+   }
+   .about p {
+    /* display: block; */
+    padding: 19vw;
+    padding-left: 14vh;
+    color: white;
+    width: 70vw;
+    font-size: 4vw;
+}
+   .secondary h4{
+    font-size: 19px;
+   }
+   .classes{
+    display: flex;
+    flex-direction: column;
+
+   }
+   nav ul li
+   .classes img{
+    /* width: 2vw; */
+    width: 15vw;
+    margin-top: 3vh;
+   }
+   .early img {
+    width: 10vw;
+    padding-left: 1em;
+}
+   
+   .early h3{
+    width: 85vw;
+   }
+
+#one p {
+    width: 258px;
+    line-height: 2;
+}
+#two p {
+    width: 260px;
+    line-height: 2;
+}
+.early p {
+    line-height: 2;
+    width: 260px;
+}
+    .five img {
+        width: 81vw;
+        height: 29vh;
+        border-bottom: 128px solid whitesmoke;
+    }
+    .fiveone {
+        padding: 70vw 0vh;
+        display: block;
+    }
+   .boy{
+    /* padding: 2vw 2vh; */
+    margin: 2vh 2vw;
+
+   }
+   .toggle span {
+    font-size: 12vw;
+    padding-top: 49vh;
+    margin: 2vh 2vw;
+}
+   .toggle img{
+    margin-left: -10vw;
+   }
+   .toggle ul li {
+    width: 322px;
+    font-size: 4vw;
+    margin-left: -12vw;
+    border-color: blue;
+    border-bottom: 1px solid blue;
+    padding: 6vw 0vh;
+}
+   .toggle ul li:hover{
+    color: yellow;
+    cursor: pointer;
+   }
+   .feature{
+    display: block;
+    border: 5px solid whitesmoke;
+    margin-top: 2vh;
+   }
+   .faida {
+    display: flex;
+    flex-direction: row;
+    margin-top: -16px;
+    border: 20px solid whitesmoke;
+}
+
+   .Benifiets{
+    font-size: 7vw;
+   }
+   .Alimuni{
+    font-size: 7vw;
+   }
+   .why h2{
+    margin: 5vh vw;
+   }
+   .choice p{
+    width: 70vw;
+    height: 55vh;
+    margin: auto;
+    
+   }
+  
+   .dav{
+    border: 10px solid whitesmoke;
+    font-size: 2vw;
+    padding: 2vh 9vw;
+    border-bottom: 86px solid whitesmoke;
+    /* border-left: 5px solid whitesmoke; */
+    /* border-right: 5px solid #028371; */
+   }
+   .early{
+    padding: 1vh 9vw;
+   }
+   .csr{
+    display: block;
+   }
+   .choice{
+    padding: 0px;
+   }
+   .music img{
+    
+    width: 90vw;
+    height: 50vh;
+    border-top: 86px solid white;
+    border-bottom: 40px solid white;
+    border-left: 5px solid white;
+    border-right:10px solid white;
+   }
+   .email img{
+    padding-bottom: 10vh;
+   }
+   #emailpng{
+    padding: 5vh 0vw;
+   }
+   #emailpng input{
+    width: 80vw;
+   }
+   #emailpng button{
+    width: 80vw;
+   }
+   .all{
+    display: block;
+    width: 90vw;
+   }
+   .all input{
+    width: 80vw;
+   }
+   .all select{
+    width: 80vw;
+   }
+   .sub{
+    padding-top: 10vh;
+   }
+   .idia{
+    display: block;
+    border-bottom: 40px solid black;
+   }
+   .foterone img {
+    width: 90vw;
+    padding-top: 10vh;
+    margin-left: -15px;
+}
+   .list{
+    width: 80vw;
+   }
+   .North li {
+    margin-left: -55px;
+    list-style: none;
+    font-size: 18px;
+}
+   .idia h3 {
+    margin-left: -25px;
+    margin-top: 50px;
+    font-size: 27px;
+    width: 315px;
+}
+   #no li{
+    margin-left: -15px;
+    font-size: 18px;
+    list-style: none;
+   }
+  
+   .ayan{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3vh 0vw;
+   }
+   .ayan p{
+    padding-bottom: 2vh;
+   }
+   .span p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 72vw;
+    line-height: 1.7;
+}
+   .ayan img{
+    /* padding-bottom: 2vh; */
+    margin-top: -20px;
+   } 
+}
+@media (max-width:820px) {
+    #checkbtn {
+        display: block;
+        font-size: 3vh;
+        padding: 6px 23px;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 68px;
+        left: 100%;
+        background-color: black;
+        transition: .5s;
+        margin-top: 0px;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin: 3ex 0px;
+        padding-right: 67%;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 2vh;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    nav ul li a:hover{
+        color: #028371;
+    }
+
+    nav img {
+        width: 43vw;
+        height: 5vh;
+    }
+    .whatsapp img {
+        width: 98vw;
+        margin-top: 63px;
+    }
+
+    .addmision img {
+        width: 53vw;
+        padding: 54px 57px;
+        height: 53vh;
+        /* border-bottom: 254px solid #028371; */
+    }
+.addmision{
+     /* display: flex; */
+     /* display: block; */
+    border: #028371;
+
+}
+.secondary h2 {
+    color: white;
+    font-size: 26px;
+    margin-top: 2px;
+    font-weight: 1000;
+    width: 318px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -51px;
+}
+.secondary h4 {
+    width: 251px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: -31px;
+    padding-top: 14px;
+}
+.secondary p {
+    padding: -3vw;
+    padding-left: 0vh;
+    color: white;
+    margin-left: -32px;
+    width: 30vw;
+    font-size: 4vw;
+    line-height: 1.2;
+    padding-top: 0px;
+}
+
+
+.about p {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-left: 20vw; */
+    margin-left: 11vw;
+    font-size: 3.5vw;
+    margin-left: -40px;
+    padding-left: 267px;
+    /* margin-top: -52px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 380px;
+    width: 65vw;
+    line-height: 1.7;
+    margin-top: -83px;
+}
+.about h2 {
+    color: yellow;
+    font-size: 35px;
+    width: 190px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1em;
+    margin-top: 20px;
+    margin: bottom 0;
+    /* margin-left: -21px; */
+}
+.btn{
+    margin-left: -21px;
+}
+#secondp{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-left: 20vw; */
+    margin-left: 11vw;
+    font-size: 3.5vw;
+    margin-left: -40px;
+    padding-left: 267px;
+    /* margin-top: -52px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 65vw;
+    line-height: 1.7;
+    margin-top: -25px;
+   
+
+}
+.secondary {
+    padding: -10px;
+    height: 55vh;
+    padding-left: 54px;
+    margin-left: -15px;
+    /* background-color: rgb(68, 168, 118); */
+    background-color: #028371 /* box-shadow: -2px 2px 2px 5px rgb(68, 168, 118); / / height: 120vh; */;
+}
+.early h3 {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+.early {
+    padding-left: 55px;
+    padding: 24px;
+}
+/* #one{
+    width: 20px;
+} */
+#one p {
+    width: 146px;
+    font-size: 16px;
+    line-height: 2.3;
+}
+#two p {
+    width: 146px;
+    font-size: 15px;
+    line-height: 2;
+}
+.early p {
+    width: 167px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.toggle{
+    background-color: #028371;
+    margin-left: 0vh;
+}
+
+
+.toggle ul li {
+    font-size: 3vw;
+    margin-left: -2vw;
+    border-color: blue;
+    border-bottom: 2px solid blue;
+    padding: 3vw 2vh;
+    width: 550px;
+}
+.five img {
+    border-bottom: 70px solid#e6e6e6;
+    width: 94vw;
+}
+.toggle span {
+    font-size: 9.5vw;
+    width: 496px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    /* margin-left: 102px; */
+}
+.toggle img{
+    height: 25px;
+    margin-left: 150px;
+}
+.choice{
+    padding-top: 13px;
+}
+.choice p {
+    width: 40vw;
+    height: 44vh;
+    margin: auto;
+    line-height: 2.1;
+    font-size: 1.9vw;
+    margin-right: 112px;
+    margin: -29px 13px;
+}
+.scool img {
+    width: 375px;
+    height: 375px;
+    border: 20px solid white;
+}
+.feature{
+    border-top: 50px solid whitesmoke ;
+    margin-top: 45vh;
+}
+.Alimuni{
+    background-color: white;
+}
+.csr{
+    display: block;
+}
+.fiveone{
+    display: flex;
+    flex-direction: column;
+}
+   
+ .music img{
+    width: 80vw;
+   height: 55vh;
+   border-top: 86px solid white;
+   border-bottom: 72px solid white;
+   border-left: 38px solid white;
+   border-right: 63px solid white;
+ }
+ .email img{
+    width: 75px;
+ padding: 55px
+ }
+
+#emailpng h3 {
+    font-size: 25px;
+}
+#emailpng p {
+    font-size: 17px;
+}
+#emailpng input {
+    width: 54vw;
+    font-size: 20px;
+}
+#emailpng button{
+    width: 54vw;
+    font-size: 20px;
+}
+#emailpng {
+    margin: auto;
+    /* display: block; */
+    width: 90%;
+    height: 535px;
+    text-align: center;
+    border: 50px solid white;
+
+}
+
+.all h3 {
+    margin-left: -100px;
+    color: white;
+    font-size: 32px;
+    /* font-size: 20px; */
+}
+.all input{
+    margin: auto;
+margin: 17px;
+margin-left: -235px;
+width: 512px;
+height: 45px;
+border: 1px white;
+font-size: 23px;
+font-family: 'Fra56vhnklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+}
+.all select{
+    margin: auto;
+margin: 17px;
+margin-left: -235px;
+width: 512px;
+height: 45px;
+border: 1px white;
+font-size: 23px;
+font-family: 'Fra56vhnklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+}
+#submit {
+    color: white;
+    background-color: #54b554;
+    width: 130px;
+    margin-top: 20px;
+    font-weight: 800;
+    margin-bottom: 100px;
+    margin-left: -235px;
+}
+.idia{
+    display: block;
+    border-bottom: 40px solid black;
+   }
+   .foterone img{
+    width: 83vw;
+    padding-top: 10vh;
+   }
+   .list{
+    width: 80vw;
+   }
+   .North li{
+    margin-left: -28px;
+   }
+   
+
+   .idia h3{
+    margin-left: -20px;
+   }
+   .North li{
+    margin-left: -55px;
+   }
+   #no li{
+    margin-left: -40px;
+   }
+   .foterone img {
+    width: 52vw;
+    padding-left: 4px;
+    padding-top: 10vh;
+}
+
+.idia img {
+    border-bottom: 2px solid green;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.North{
+    margin-left: -90px;
+}
+#no li {
+    margin-left: 90px;
+    list-style: none;
+    font-size: 19px;
+}
+.idia h3 {
+    margin-left: -15px;
+    margin-top: 50px;
+    width: 480px;
+    font-size: 26px;
+}
+.North li {
+    margin-left: 70px;
+    list-style: none;
+    font-size: 19px;
+}
+#check:checked ~ ul {
+    left: 63%;
+}
+/* nav ul li {
+    display: block;
+    text-align: center;
+    margin: 1ex 0px;
+    padding-right: 73%;
+} */
+.ayan{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3vh 0vw;
+   }
+   .ayan p{
+    padding-bottom: 2vh;
+   }
+   .span p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70vw;
+    line-height: 1.9;
+   }
+   .ayan img{
+    /* padding-bottom: 2vh; */
+    margin-top: 0px;
+    margin-left: 30px;
+   } 
+ 
+
+
+}
+    
+ 
+
+    
+ 
+   
